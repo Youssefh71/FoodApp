@@ -1,0 +1,109 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap";
+
+:root {
+    --white: #ffffff;
+    --gray-light: #f5fbfc;
+    --gray-dark: #08090a;
+    --green: #35b8be;
+    --green-dark: #1b9097;
+    --green-light: #f5fbfc;
+    --blue-dark: #546285;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--gray-dark);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/**
+ * Text color
+ */
+.green {
+    color: var(--green);
+}
+
+
+.alert,
+ nav ul {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px 0;
+}
+
+nav img{
+    width: 20%;
+    
+
+}
+
+nav svg{
+    background-color: var(--gray-light);
+    border-radius: 8px;
+    padding: 10px 10px 5px 10px;
+    width: 25%;
+    
+
+}
+
+header,
+main {
+    text-align: center;
+    
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 700; /* épaisseur de la police */
+}
+
+header p,
+main section p {
+    font-size: 1.1rem;
+    line-height: 1.3rem;/* hauteur entre les lignes */
+    font-weight: 300; /* épaisseur de la police */
+    margin: 50px 0;
+    color: var(--blue-dark);
+    
+}
+
+.picture {
+
+    width: 100%;
+    margin-top: 100px;
+}
+
+.btn-green {
+    color: var(--white);
+    border-radius: 8px;
+    padding: 14px 24px;
+    text-decoration: none;
+    background: var(--green) url(../images/button_wave.svg) no-repeat;
+}
+
+
+.main-green {
+    background-color: var(--green-light);
+}
+
+main h2 {
+    margin-top: 100px;
+    color: var(--green);
+    font-size: 3rem;
+}
+
