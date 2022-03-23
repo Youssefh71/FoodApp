@@ -62,9 +62,9 @@ nav svg{
 }
 
 header,
-main {
+main section {
     text-align: center;
-    
+    padding: 50px 0;
 }
 
 header h1 {
@@ -97,16 +97,33 @@ main section p {
 }
 
 
-.main-green {
+main section:first-child {
     background-color: var(--green-light);
+
 }
 
-main h2 {
+main section h2 {
     margin-top: 60px;
-    padding-top: 60px;
     color: var(--green);
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
+
+/**
+* :last-child permet de cibler un élément positionné en
+* dernier enfant de son parent
+*/
+
+main section:last-child p{
+margin: 0;
+}
+
+main section:last-child h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    }
+
 
 footer {
     background-color: var(--green-light);
@@ -114,16 +131,24 @@ footer {
 
 footer p {
     color: var(--green-dark);
+    
 }
 
 footer ul {
     display: flex;
+    align-items: center;
     gap: 20px;
     list-style: none;
+    margin-top: 10px;
 }
 
 footer a {
     color: var(--blue-dark);
     text-decoration: none;
+    font-size: 0.8rem;
+}
+
+div .container {
+    width: 80%;
 }
 

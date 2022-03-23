@@ -1,0 +1,24 @@
+@media screen and (min-width: 1200px) {
+
+    .container {
+        width: 60%;
+    }
+    
+    nav svg {
+        display: none;
+    }
+
+    .alert, nav ul {
+        display: flex;
+        
+    }
+
+    .alert {
+        background: var(--green) url(/images/banner_wave.svg);
+        justify-content: center;                
+    }
+
+    
+    
+
+}
