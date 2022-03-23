@@ -3,22 +3,85 @@
     .container {
         width: 60%;
     }
-    
+
+    .alert {
+        display: block;
+        color: var(--white);
+        text-align: center;
+        background: var(--green) url(../images/banner_wave.svg) no-repeat;
+        padding: 15px 0;
+
+    }
+
     nav svg {
         display: none;
     }
 
-    .alert, nav ul {
+    nav ul {
         display: flex;
+        list-style: none;
+        gap: 20px;
+        align-items: center;
+                
+    }
+
+    nav ul a {
+        color: var(--gray-dark);
+        text-decoration: none;
+
+    }
+
+    nav img {
+        width: 10%;
+    }
+
+    header, 
+    main section .container,
+    main section:last-child section
+     {
+        display: flex; 
+        align-items: center;
+        gap: 50px;
+        text-align: left;
+        padding: 100px 0;
+    }
+
+    header h1, { 
+        font-size: 4rem;
+    }
+
+    header img {
+
+        margin: 0 !important;
+    }
+
+    main section:last-child  section{
+        text-align: center;
         
     }
 
-    .alert {
-        background: var(--green) url(/images/banner_wave.svg);
-        justify-content: center;                
+    main section h2 {
+        font-size: 3.2rem;
+    }
+
+    .picture {
+        margin: 0;
+    }
+
+    footer div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer div ul {
+        margin: 0;
     }
 
     
-    
+    footer {
+        
+        padding: 20px 0;
+    }
 
 }
