@@ -102,8 +102,28 @@ main section p {
 }
 
 main h2 {
-    margin-top: 100px;
+    margin-top: 60px;
+    padding-top: 60px;
     color: var(--green);
     font-size: 3rem;
+}
+
+footer {
+    background-color: var(--green-light);
+}
+
+footer p {
+    color: var(--green-dark);
+}
+
+footer ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+footer a {
+    color: var(--blue-dark);
+    text-decoration: none;
 }
 
